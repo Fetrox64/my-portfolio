@@ -8,7 +8,7 @@ const About = () => {
           <div className="left">
             <div className="image">
               <img src="img/thumbs/45-49.jpg" alt="aali image" />
-              <div className="main" data-img-url="img/about/1.jpg" />
+              <div className="main" data-img-url="img/about/about1.jpeg" />
               <span
                 className="square moving_effect"
                 data-direction="y"
@@ -32,7 +32,7 @@ const About = () => {
               <h3>
                 Software <span>Developer</span>
               </h3>
-              <span className="subtitle">Based in Santiago, Chile</span>
+              <span className="subtitle">Based in Santiago, CL</span>
             </div>
             <div
               className="text wow fadeInUp"
@@ -54,7 +54,7 @@ const About = () => {
               data-wow-duration="1.5s"
               data-wow-delay="0.2s"
             >
-              <a href="img/cv/1.jpg" download>
+              <a href="CV_Fernando_Hernandez_Vega_12_2021.pdf" download>
                 <span>Download CV {download}</span>
               </a>
             </div>
@@ -62,7 +62,7 @@ const About = () => {
           <div className="right">
             <div className="image">
               <img src="img/thumbs/41-61.jpg" alt="aali image" />
-              <div className="main" data-img-url="img/about/2.jpg" />
+              <div className="main" data-img-url="img/about/about2.jpeg" />
               <div
                 className="square moving_effect"
                 data-direction="x"

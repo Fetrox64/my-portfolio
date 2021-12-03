@@ -7,7 +7,7 @@ import {
   soundcloud,
   text,
   twitter,
-  vimeo,
+  edit,
   youtube,
 } from "../svgImage";
 import { aTagClick, dataImage } from "../utilits";
@@ -61,67 +61,53 @@ const Portfolio = () => {
             <span>Selected works</span>
             <h3>Check my portfolio</h3>
           </div>
-          <div className="portfolio_filter">
-            <ul>
-              <li>
-                <a onClick={handleFilterKeyChange("*")} className="current">
-                  All
-                </a>
-              </li>
-              <li>
-                <a onClick={handleFilterKeyChange("vimeo")}>Vimeo</a>
-              </li>
-              <li>
-                <a onClick={handleFilterKeyChange("youtube")}>Youtube</a>
-              </li>
-              <li>
-                <a onClick={handleFilterKeyChange("soundcloud")}>Soundcloud</a>
-              </li>
-              <li>
-                <a onClick={handleFilterKeyChange("image")}>Image</a>
-              </li>
-              <li>
-                <a onClick={handleFilterKeyChange("detail")}>Detail</a>
-              </li>
-            </ul>
-          </div>
+          <div className="portfolio_filter"></div>
           <div className="portfolio_list">
             <ul className="gallery_zoom">
+              {/* PEOPLE MANAGEMENT */}
               <li className="filter-item vimeo">
                 <div className="list_inner">
                   <div className="image">
                     <img src="img/thumbs/1-1.jpg" alt="aali image" />
-                    <div className="main" data-img-url="img/portfolio/1.jpg" />
+                    <div
+                      className="main"
+                      data-img-url="img/portfolio/peopleManagement.png"
+                    />
                   </div>
                   <div className="overlay" />
-                  {vimeo}
+                  {edit}
                   <div className="details">
-                    <span>Vimeo</span>
-                    <h3>New Laptop</h3>
+                    <h3>People Management</h3>
+                    <span>Fleets Management System</span>
                   </div>
                   <a
-                    className="aali_tm_full_link popup-vimeo"
-                    href="#"
-                    onClick={() => showPopup("vimeo", "337293658")}
+                    className="aali_tm_full_link"
+                    href="https://pmanagement.cl"
+                    target="_blank"
                   />
                 </div>
               </li>
+
+              {/* SEATECH */}
               <li className="filter-item youtube">
                 <div className="list_inner">
                   <div className="image">
                     <img src="img/thumbs/1-1.jpg" alt="aali image" />
-                    <div className="main" data-img-url="img/portfolio/2.jpg" />
+                    <div
+                      className="main"
+                      data-img-url="img/portfolio/seatech.png"
+                    />
                   </div>
                   <div className="overlay" />
                   {youtube}
                   <div className="details">
-                    <span>Youtube</span>
-                    <h3>Best Phone</h3>
+                    <h3>Seatech</h3>
+                    <span>Online Programming Courses</span>
                   </div>
                   <a
                     className="aali_tm_full_link popup-youtube"
                     href="#"
-                    onClick={() => showPopup("youtube", "7e90gBu4pas")}
+                    onClick={() => showPopup("youtube", "d32faalxZqw")}
                   />
                 </div>
               </li>
@@ -148,18 +134,22 @@ const Portfolio = () => {
                 <div className="list_inner">
                   <div className="image">
                     <img src="img/thumbs/1-1.jpg" alt="aali image" />
-                    <div className="main" data-img-url="img/portfolio/4.jpg" />
+                    <div
+                      className="main"
+                      data-img-url="img/portfolio/fiordoAustral.png"
+                    />
                   </div>
                   <div className="overlay" />
                   {text}
                   <div className="details">
-                    <span>Detail</span>
-                    <h3>Hippie Sabotage</h3>
+                    <h3>Fiordo Austral</h3>
+                    <span>Client Production Dashboards</span>
                   </div>
                   <a
                     className="aali_tm_full_link portfolio_popup"
-                    href="#"
-                    onClick={() => setModal(1)}
+                    href="https://fiordoaustralfrontend.azurewebsites.net/"
+                    target="_blank"
+                    // onClick={() => setModal(1)}
                   />
                   <div className={modal === 1 ? "" : "hidden_content"}>
                     <ModalBox close={setModal}>
