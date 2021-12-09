@@ -25,8 +25,11 @@ const Header = ({ dark }) => {
                 <a href="#service">Service</a>
               </li>
               <li>
-                <a href="#testimonial">Testimonial</a>
+                <a href="#resume">Resume</a>
               </li>
+              {/* <li>
+                <a href="#testimonial">Testimonial</a>
+              </li> */}
               <li>
                 <a href="#blog">Blog</a>
               </li>

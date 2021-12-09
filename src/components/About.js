@@ -41,12 +41,13 @@ const About = () => {
             >
               <p>
                 Hi! My name is Fernando Hernández Vega. I am software developer,
-                and {`I'm`} very passionate and dedicated to my work.
+                whiteboards lover and in my free time I like to teach and help
+                people and above all comming up with ideas.
               </p>
               <p>
-                With 20 years experience as a professional graphic designer and
-                web developer, I have acquired the skills and knowledge
-                necessary to make your project a success.
+                In companies I like to add value in the details and generate
+                alternatives or instances to promote the growth of teams and
+                brands.
               </p>
             </div>
             <div

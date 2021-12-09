@@ -52,7 +52,11 @@ const Contact = () => {
                   <div className="list_inner">
                     {call}
                     <span>Call me</span>
-                    <h3>+1234 5678 9000</h3>
+                    <h3>
+                      <a className="line_anim" href="tel:+56971952694">
+                        +569 7195 2694
+                      </a>
+                    </h3>
                   </div>
                 </li>
                 <li>
@@ -60,15 +64,18 @@ const Contact = () => {
                     {emailIcon}
                     <span>Email</span>
                     <h3>
-                      <a className="line_anim" href="mailto:hello@aali.com">
-                        hello@aali.com
+                      <a
+                        className="line_anim"
+                        href="mailto:fernanrpg@gmail.com"
+                      >
+                        fernanrpg@gmail.com
                       </a>
                     </h3>
                   </div>
                 </li>
               </ul>
             </div>
-            <div className="right wow fadeInRight" data-wow-duration="1s">
+            {/* <div className="right wow fadeInRight" data-wow-duration="1s">
               <div className="fields">
                 <form
                   action="/"
@@ -143,10 +150,9 @@ const Contact = () => {
                       <span>Submit Message {msgSent}</span>
                     </a>
                   </div>
-                  {/* If you want change mail address to yours, just open "modal" folder >> contact.php and go to line 4 and change detail to yours.  */}
                 </form>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <span

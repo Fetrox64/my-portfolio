@@ -2364,6 +2364,8 @@ h6 {
   float: left;
   display: flex;
   margin-top: 60px;
+  flex-direction: column;
+  align-items: center;
 }
 .aali_tm_contact .left {
   width: 50%;
