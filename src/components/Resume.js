@@ -8,7 +8,7 @@ const Resume = () => {
   }, []);
   return (
     <div className="aali_tm_section">
-      <div className="aali_tm_resume">
+      <div className="aali_tm_resume" id="resume">
         <div className="content">
           <div className="container">
             <div className="resume_in">
@@ -19,147 +19,153 @@ const Resume = () => {
               >
                 <span>Know More</span>
                 <h3>My Resume</h3>
-                <p>
-                  I enjoy every step of the design process, from discussion and
-                  collaboration to concept and execution
-                </p>
+                <p>I expect pulling up on a</p>
               </div>
               <div className="content_inner">
                 <ul>
+                  {/*********************************************************/}
+
+                  {/* EDUCATION COLUMN */}
                   <li className="wow fadeInLeft" data-wow-duration="1s">
                     <h3 className="main_title">
                       <span>Education</span>
                     </h3>
                     <ul className="list">
+                      {/* 1 */}
                       <li>
                         <div className="list_inner">
                           <span className="icon">{edu}</span>
                           <div className="info">
                             <div className="left">
-                              <h3>Cognitive Sciences</h3>
-                              <span>University of Maine</span>
+                              <h3>Programming Bootcamp</h3>
+                              <span>Universidad de Chile with Accenture</span>
                             </div>
                             <div className="right">
-                              <span>2018 - 2020</span>
+                              <span>3 months</span>
                             </div>
                           </div>
                           <div className="text">
-                            <p>
-                              Aali is a leading web design agency with an
-                              award-winning design
-                            </p>
+                            <p>Full Stack Software Developer formation</p>
                           </div>
                         </div>
                       </li>
+
+                      {/* 2 */}
                       <li>
                         <div className="list_inner">
                           <span className="icon">{edu}</span>
                           <div className="info">
                             <div className="left">
-                              <h3>Civil Engineering</h3>
-                              <span>University of Texas</span>
+                              <h3>Skills for Work Program</h3>
+                              <span>Fundación Forge, Chile</span>
                             </div>
                             <div className="right">
-                              <span>2014 - 2018</span>
+                              <span>2 months</span>
                             </div>
                           </div>
                           <div className="text">
-                            <p>
-                              Aali is a leading web design agency with an
-                              award-winning design
-                            </p>
+                            <p>Certificate in Soft Skills Development</p>
                           </div>
                         </div>
                       </li>
+
+                      {/* 3 */}
                       <li>
                         <div className="list_inner">
                           <span className="icon">{edu}</span>
                           <div className="info">
                             <div className="left">
-                              <h3>Bachelor of Science</h3>
-                              <span>Univercity of Oxford</span>
+                              <h3>Business Management</h3>
+                              <span>Universidad de Santiago, Chile</span>
                             </div>
                             <div className="right">
-                              <span>2012 - 2014</span>
+                              <span>3 years</span>
                             </div>
                           </div>
                           <div className="text">
-                            <p>
-                              Aali is a leading web design agency with an
-                              award-winning design
-                            </p>
+                            <p>Non graduated in Bussines Management</p>
+                          </div>
+                        </div>
+                      </li>
+
+                      {/* 4 */}
+                      <li>
+                        <div className="list_inner">
+                          <span className="icon">{edu}</span>
+                          <div className="info">
+                            <div className="left">
+                              <h3>Secondary Education</h3>
+                              <span>Colegio IDOP, Chile</span>
+                            </div>
+                            <div className="right">
+                              <span>4 years</span>
+                            </div>
+                          </div>
+                          <div className="text">
+                            <p>Graduated in Humanist-Scientific formation</p>
                           </div>
                         </div>
                       </li>
                     </ul>
                   </li>
+
+                  {/*********************************************************/}
+
+                  {/* EXPERIENCE COLUMN */}
                   <li className="wow fadeInRight" data-wow-duration="1s">
                     <h3 className="main_title">
                       <span>Experience</span>
                     </h3>
                     <ul className="list">
+                      {/* 1 */}
                       <li>
                         <div className="list_inner">
                           <span className="icon">{exp}</span>
                           <div className="info">
                             <div className="left">
-                              <h3>Product Designer</h3>
-                              <span>Easy Computers</span>
+                              <h3>Full Stack Developer</h3>
+                              <span>Hackmonkeys, Chile</span>
                             </div>
                             <div className="right">
-                              <span>2018 - running</span>
+                              <span>8 months</span>
                             </div>
                           </div>
                           <div className="text">
                             <p>
-                              Aali is a leading web design agency with an
-                              award-winning design
+                              In this startup I participate in consultory
+                              projects drawing pages with React and setting up
+                              web services with Node
                             </p>
                           </div>
                         </div>
                       </li>
+
+                      {/* 2 */}
                       <li>
                         <div className="list_inner">
                           <span className="icon">{exp}</span>
                           <div className="info">
                             <div className="left">
-                              <h3>UI/UX Expert</h3>
-                              <span>eTheme Group</span>
+                              <h3>Founder and CEO</h3>
+                              <span>Empatía Industries, Chile</span>
                             </div>
                             <div className="right">
-                              <span>2015 - 2018</span>
+                              <span>5 years</span>
                             </div>
                           </div>
                           <div className="text">
                             <p>
-                              Aali is a leading web design agency with an
-                              award-winning design
-                            </p>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="list_inner">
-                          <span className="icon">{exp}</span>
-                          <div className="info">
-                            <div className="left">
-                              <h3>Senior Developer</h3>
-                              <span>Envato Studio</span>
-                            </div>
-                            <div className="right">
-                              <span>2012 - 2018</span>
-                            </div>
-                          </div>
-                          <div className="text">
-                            <p>
-                              Aali is a leading web design agency with an
-                              award-winning design
+                              We connect people and organizations, promoting
+                              entrepreneurship, teaching programming and
+                              building proofs of concept
                             </p>
                           </div>
                         </div>
                       </li>
                     </ul>
                   </li>
+
+                  {/*********************************************************/}
                 </ul>
               </div>
             </div>
