@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { fb, msg, linkedin, github, discord } from "../svgImage";
+import { msg, linkedin, github, discord } from "../svgImage";
 import { parallax } from "../utilits";
 
 const Home = () => {

@@ -7,6 +7,7 @@ const Counter = () => {
         <div className="container">
           <div className="counter_list">
             <ul className="wow fadeIn" data-wow-duration="1s">
+              {/* 1 */}
               <li>
                 <div className="list_inner">
                   <div className="wrapper">
@@ -20,39 +21,41 @@ const Counter = () => {
                         >
                           0
                         </span> */}
-                        <ReactCounter end={5} />
-                        <label className="big">K</label>
+                        <ReactCounter end={8} />
+                        <label className="big">M</label>
                       </span>
                     </div>
                     <div className="text">
                       <h3>
-                        JavaScript
+                        Professional
                         <br />
-                        Projects
+                        Developing
                       </h3>
                     </div>
                   </div>
                 </div>
               </li>
+              {/* 2 */}
               <li>
                 <div className="list_inner">
                   <div className="wrapper">
                     <div className="value">
                       <span className="abs">
-                        <ReactCounter end={90} />
+                        <ReactCounter end={5} />
                         <label className="small">+</label>
                       </span>
                     </div>
                     <div className="text">
                       <h3>
-                        Digital
+                        Production
                         <br />
-                        Products
+                        Applications
                       </h3>
                     </div>
                   </div>
                 </div>
               </li>
+              {/* 3 */}
               <li>
                 <div className="list_inner">
                   <div className="wrapper">
@@ -64,9 +67,9 @@ const Counter = () => {
                     </div>
                     <div className="text">
                       <h3>
-                        Happy
+                        Self-taught
                         <br />
-                        Clients
+                        Training Hours
                       </h3>
                     </div>
                   </div>

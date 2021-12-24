@@ -2341,7 +2341,7 @@ h6 {
   height: 520px;
   border: 6px solid #fff;
   left: 100%;
-  margin-left: -160px;
+  margin-left: -42px;
   top: -83px;
 }
 
@@ -2546,7 +2546,7 @@ input[type="number"] {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 112px;
+  margin-bottom: 12px;
 }
 .aali_tm_copyright .logo img {
   max-width: 175px;
@@ -2646,10 +2646,10 @@ input[type="number"] {
 .aali_tm_copyright .border {
   position: absolute;
   width: 320px;
-  height: 300px;
+  height: 200px;
   border: 6px solid #fff;
-  top: -200px;
-  left: -45px;
+  top: -228px;
+  left: 0;
 }
 .aali_tm_copyright .square {
   position: absolute;

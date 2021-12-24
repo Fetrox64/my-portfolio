@@ -1,9 +1,4 @@
-import { useState } from "react";
-import ModalBox from "./ModalBox";
-
 const Blog = () => {
-  const [modal, setModal] = useState(0);
-  const hidden = (value) => (value === modal ? "" : "news_hidden_details");
   return (
     <div className="aali_tm_section" id="blog">
       <div className="aali_tm_news">

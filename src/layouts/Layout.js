@@ -22,7 +22,7 @@ const Layout = ({ children, headName, dark }) => {
   return (
     <Fragment>
       <Head>
-        <title>Feña | {headName ? headName : "Home"} </title>
+        <title>Feña's Portfolio</title>
       </Head>
       <Preloader />
       <div className="aali_tm_all_wrap" data-magic-cursor="show">

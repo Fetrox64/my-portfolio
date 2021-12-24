@@ -1,3 +1,5 @@
+import { msg, linkedin, github, discord } from "../svgImage";
+
 const Footer = () => {
   return (
     <div className="aali_tm_section">
@@ -6,24 +8,30 @@ const Footer = () => {
           <div className="copyright_inner">
             <div className="top">
               <div className="logo">
-                <img src="img/logo/logo.png" alt="aali image" />
+                {/* <img src="img/logo/logo.png" alt="aali image" /> */}
               </div>
               <div className="social">
-                <span>Connect</span>
+                <span>Connect with me via social media</span>
                 <ul>
                   <li>
-                    <a href="#">
-                      <i className="icon-facebook-1" />
+                    <a href="https://github.com/Fetrox64" target="_blank">
+                      {github}
                     </a>
                   </li>
                   <li>
-                    <a href="#">
-                      <i className="icon-twitter-1" />
+                    <a
+                      href="https://www.linkedin.com/in/fernanrpg"
+                      target="_blank"
+                    >
+                      {linkedin}
                     </a>
                   </li>
                   <li>
-                    <a href="#">
-                      <i className="icon-instagram-3" />
+                    <a
+                      href="https://discordapp.com/users/212806015387697153"
+                      target="_blank"
+                    >
+                      {discord}
                     </a>
                   </li>
                 </ul>
@@ -43,25 +51,6 @@ const Footer = () => {
                   </a>{" "}
                   © {new Date().getFullYear()}
                 </p>
-              </div>
-              <div className="right">
-                <ul>
-                  <li>
-                    <a className="line_anim" href="#">
-                      Terms &amp; Condition
-                    </a>
-                  </li>
-                  <li>
-                    <a className="line_anim" href="#">
-                      Privacy Policy
-                    </a>
-                  </li>
-                  <li>
-                    <a className="line_anim" href="#">
-                      Support
-                    </a>
-                  </li>
-                </ul>
               </div>
             </div>
             <span
