@@ -42,9 +42,8 @@ const Contact = () => {
             <div className="left wow fadeInLeft" data-wow-duration="1s">
               <div className="text">
                 <p>
-                  Please fill out the form on this section to contact with me.
-                  Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through
-                  Friday
+                  Call between 9:00 a.m. and 8:00 p.m. ET, Monday through
+                  Friday. Also, always can you send me an email.
                 </p>
               </div>
               <ul>

@@ -2368,12 +2368,13 @@ h6 {
   align-items: center;
 }
 .aali_tm_contact .left {
-  width: 50%;
-  padding-right: 50px;
+  width: 30%;
+  padding-right: 0;
 }
 .aali_tm_contact .left .text {
   max-width: 450px;
   margin-bottom: 38px;
+  text-align: justify;
 }
 .aali_tm_contact .left ul {
   margin: 0px;
