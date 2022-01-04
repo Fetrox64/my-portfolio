@@ -1,31 +1,6 @@
-import { useState } from "react";
-import { call, emailIcon, msgSent } from "../svgImage";
+import { call, emailIcon } from "../svgImage";
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    msg: "",
-  });
-  const [error, setError] = useState(null);
-  const { name, email, phone, msg } = formData;
-  const onChnage = (e) =>
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  const onSubmit = (e) => {
-    // e.preventDefault();
-    if (name && email && phone && msg) {
-      setError(false);
-      setTimeout(() => {
-        setError(null);
-      }, 2000);
-    } else {
-      setError(true);
-      setTimeout(() => {
-        setError(null);
-      }, 2000);
-    }
-  };
   return (
     <div className="aali_tm_section" id="contact">
       <div className="aali_tm_contact">
@@ -74,84 +49,6 @@ const Contact = () => {
                 </li>
               </ul>
             </div>
-            {/* <div className="right wow fadeInRight" data-wow-duration="1s">
-              <div className="fields">
-                <form
-                  action="/"
-                  method="post"
-                  className="contact_form"
-                  id="contact_form"
-                  autoComplete="off"
-                  onSubmit={(e) => onSubmit(e)}
-                >
-                  <div
-                    className="returnmessage"
-                    data-success="Your message has been received, We will contact you soon."
-                    style={{
-                      display: error !== null && !error ? "block" : "none",
-                    }}
-                  >
-                    <span className="contact_success">
-                      Your message has been received, We will contact you soon.
-                    </span>
-                  </div>
-                  <div
-                    className="empty_notice"
-                    style={{ display: error ? "block" : "none" }}
-                  >
-                    <span>Please Fill Required Fields</span>
-                  </div>
-                  <div className="input_list">
-                    <ul>
-                      <li>
-                        <input
-                          id="name"
-                          type="text"
-                          name="name"
-                          value={name}
-                          onChange={(e) => onChnage(e)}
-                          placeholder="Your Name"
-                        />
-                      </li>
-                      <li>
-                        <input
-                          id="email"
-                          type="text"
-                          placeholder="Your Email"
-                          name="email"
-                          value={email}
-                          onChange={(e) => onChnage(e)}
-                        />
-                      </li>
-                      <li>
-                        <input
-                          id="phone"
-                          type="number"
-                          placeholder="Your Phone"
-                          name="phone"
-                          value={phone}
-                          onChange={(e) => onChnage(e)}
-                        />
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="message_area">
-                    <textarea
-                      id="message"
-                      name="msg"
-                      value={msg}
-                      onChange={(e) => onChnage(e)}
-                      placeholder="Your message here"
-                    />
-                  </div>
-                  <div className="aali_tm_button">
-                    <a id="send_message" href="#" onClick={() => onSubmit()}>
-                      <span>Submit Message {msgSent}</span>
-                    </a>
-                  </div>
-                </form>
-              </div>
-            </div> */}
           </div>
         </div>
         <span

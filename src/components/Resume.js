@@ -19,7 +19,14 @@ const Resume = () => {
               >
                 <span>Know More</span>
                 <h3>My Resume</h3>
-                <p>I expect pulling up on a</p>
+                <p>I cock</p>
+                <p style={{ textAlign: "justify" }}>
+                  Espero poder integrarme en una empresa que sepa explotar mi
+                  creatividad y estrategia. Me gusta desarrollar habilidades que
+                  permitan el mejor funcionamiento de equipos de trabajo, en las
+                  áreas de comunicación efectiva, empatía en el trabajo y
+                  gestión de equipos.
+                </p>
               </div>
               <div className="content_inner">
                 <ul>
@@ -131,8 +138,8 @@ const Resume = () => {
                             </div>
                           </div>
                           <div className="text">
-                            <p>
-                              In this startup I participate in consultory
+                            <p style={{ textAlign: "justify" }}>
+                              In this startup I participate in consultancy
                               projects drawing pages with React and setting up
                               web services with Node
                             </p>
@@ -154,7 +161,7 @@ const Resume = () => {
                             </div>
                           </div>
                           <div className="text">
-                            <p>
+                            <p style={{ textAlign: "justify" }}>
                               We connect people and organizations, promoting
                               entrepreneurship, teaching programming and
                               building proofs of concept
@@ -176,8 +183,8 @@ const Resume = () => {
           {/* Background Styles: "video" and "image" // Also you can use any youtube, vimeo, and local videos */}
           <div
             className="video jarallax"
-            data-speed={0}
-            data-jarallax-video="https://vimeo.com/337293658"
+            data-speed={1}
+            data-jarallax-video="https://www.youtube.com/watch?v=hGIW2fDb0jg"
           />
           <div
             className="image jarallax"
