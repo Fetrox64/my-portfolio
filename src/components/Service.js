@@ -1,20 +1,15 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import {
   camera,
   cameraDark,
   msg,
   pen,
   penDark,
-  user,
-  userDark,
   web,
   webDark,
 } from "../svgImage";
-import ModalBox from "./ModalBox";
 
 const Service = ({ dark }) => {
-  const [modal, setModal] = useState(0);
-  const hidden = (value) => (value === modal ? "" : "service_hidden_details");
   useEffect(() => {
     let VanillaTilt = require("vanilla-tilt");
     VanillaTilt.init(document.querySelectorAll(".tilt-effect"), {
@@ -42,7 +37,11 @@ const Service = ({ dark }) => {
                   >
                     <span>What I Do</span>
                     <h3>My Services</h3>
-                    <p>Lol</p>
+                    <p>
+                      We offer high quality products for competitive prices. Our
+                      main goal is customer satisfaction, which we obtain
+                      through market orientation of ongoing service and support.
+                    </p>
                     <p>
                       We offer high quality products for competitive prices. Our
                       main goal is customer satisfaction, which we obtain

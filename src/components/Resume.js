@@ -19,13 +19,11 @@ const Resume = () => {
               >
                 <span>Know More</span>
                 <h3>My Resume</h3>
-                <p>I cock</p>
                 <p style={{ textAlign: "justify" }}>
-                  Espero poder integrarme en una empresa que sepa explotar mi
-                  creatividad y estrategia. Me gusta desarrollar habilidades que
-                  permitan el mejor funcionamiento de equipos de trabajo, en las
-                  áreas de comunicación efectiva, empatía en el trabajo y
-                  gestión de equipos.
+                  I hope to be able to join a company that knows how to exploit
+                  my creativity and strategy. I like to develop skills that
+                  allow the better functioning of work teams, in effective
+                  communication area, empathy at work and team management.
                 </p>
               </div>
               <div className="content_inner">
