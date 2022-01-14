@@ -17,7 +17,7 @@ const Contact = () => {
             <div className="left wow fadeInLeft" data-wow-duration="1s">
               <div className="text">
                 <p>
-                  Call between 9:00 a.m. and 8:00 p.m. ET, Monday through
+                  Call between 9:00 a.m. and 8:00 p.m. GMT-3, Monday through
                   Friday. Also, always can you send me an email.
                 </p>
               </div>
