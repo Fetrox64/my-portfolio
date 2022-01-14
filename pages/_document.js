@@ -9,7 +9,9 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="es">
-        <Head />
+        <Head>
+          <link rel="icon" href="/empatia.ico.png" />
+        </Head>
         <body>
           <Main />
           <NextScript />
