@@ -28,17 +28,24 @@ const Blog = () => {
                     />
                     <a
                       className="aali_tm_full_link"
+                      target="_blank"
                       href="https://blog.empatiaindustries.com/administra-y-agenda/"
                     />
                   </div>
                   <div className="details">
                     <span className="category">
-                      <a href="https://blog.empatiaindustries.com/tag/resources/">
+                      <a
+                        href="https://blog.empatiaindustries.com/tag/resources/"
+                        target="_blank"
+                      >
                         Resources
                       </a>
                     </span>
                     <h3 className="title">
-                      <a href="https://blog.empatiaindustries.com/administra-y-agenda/">
+                      <a
+                        href="https://blog.empatiaindustries.com/administra-y-agenda/"
+                        target="_blank"
+                      >
                         Schedule your meetings smartly with Calendly
                       </a>
                     </h3>
@@ -46,7 +53,10 @@ const Blog = () => {
                   </div>
                   <div className="button">
                     <div className="aali_tm_learn_more">
-                      <a href="https://blog.empatiaindustries.com/administra-y-agenda/">
+                      <a
+                        href="https://blog.empatiaindustries.com/administra-y-agenda/"
+                        target="_blank"
+                      >
                         Full Story
                       </a>
                     </div>
@@ -64,17 +74,24 @@ const Blog = () => {
                     />
                     <a
                       className="aali_tm_full_link"
+                      target="_blank"
                       href="https://blog.empatiaindustries.com/gatsby-shopify-webinar/"
                     />
                   </div>
                   <div className="details">
                     <span className="category">
-                      <a href="https://blog.empatiaindustries.com/tag/events/">
+                      <a
+                        href="https://blog.empatiaindustries.com/tag/events/"
+                        target="_blank"
+                      >
                         Events
                       </a>
                     </span>
                     <h3 className="title">
-                      <a href="https://blog.empatiaindustries.com/gatsby-shopify-webinar/">
+                      <a
+                        href="https://blog.empatiaindustries.com/gatsby-shopify-webinar/"
+                        target="_blank"
+                      >
                         Headless Shopify: From first commit to first sale
                       </a>
                     </h3>
@@ -82,7 +99,10 @@ const Blog = () => {
                   </div>
                   <div className="button">
                     <div className="aali_tm_learn_more">
-                      <a href="https://blog.empatiaindustries.com/gatsby-shopify-webinar/">
+                      <a
+                        href="https://blog.empatiaindustries.com/gatsby-shopify-webinar/"
+                        target="_blank"
+                      >
                         Full Story
                       </a>
                     </div>

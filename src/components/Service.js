@@ -37,20 +37,10 @@ const Service = ({ dark }) => {
                   >
                     <span>What I Do</span>
                     <h3>My Services</h3>
-                    <p>
-                      We offer high quality products for competitive prices. Our
-                      main goal is customer satisfaction, which we obtain
-                      through market orientation of ongoing service and support.
-                    </p>
-                    <p>
-                      We offer high quality products for competitive prices. Our
-                      main goal is customer satisfaction, which we obtain
-                      through market orientation of ongoing service and support.
-                    </p>
-                    <p>
-                      We offer high quality products for competitive prices. Our
-                      main goal is customer satisfaction, which we obtain
-                      through market orientation of ongoing service and support.
+                    <p style={{ textAlign: "justify" }}>
+                      In my experience as developer I had grown in a Full Stack
+                      enviroment, participating in MVPs develop from product
+                      design to apps developing.
                     </p>
                   </div>
                 </div>
@@ -64,7 +54,7 @@ const Service = ({ dark }) => {
               >
                 <div className="list_inner tilt-effect">
                   <span className="icon">
-                    {dark ? cameraDark : camera}
+                    {dark ? webDark : web}
                     <img
                       className="back"
                       src={`img/svg/service${dark ? "-dark" : ""}.png`}
@@ -79,8 +69,8 @@ const Service = ({ dark }) => {
                   </div>
                   <div className="text">
                     <p>
-                      Aali is a leading web design agency with an award-winning
-                      design team that creates innovative, effective websites{" "}
+                      In my career as a Backend Developer I had mainly dedicated
+                      to the develop of REST API and Bots
                     </p>
                   </div>
                   <img
@@ -108,8 +98,8 @@ const Service = ({ dark }) => {
                   </div>
                   <div className="text">
                     <p>
-                      Aali is a leading web design agency with an award-winning
-                      design team that creates innovative, effective websites{" "}
+                      As a Frontend Developer I had work building Dashboards,
+                      Graphs and Landing pages.
                     </p>
                   </div>
                   <img
@@ -143,8 +133,8 @@ const Service = ({ dark }) => {
                   </div>
                   <div className="text">
                     <p>
-                      Aali is a leading web design agency with an award-winning
-                      design team that creates innovative, effective websites{" "}
+                      When it comes to Consultancy I had to do from project
+                      management to process management and system integration.
                     </p>
                   </div>
                   <img
@@ -174,8 +164,8 @@ const Service = ({ dark }) => {
                   </div>
                   <div className="text">
                     <p>
-                      Aali is a leading web design agency with an award-winning
-                      design team that creates innovative, effective websites{" "}
+                      I also had the oportunity to improve my teaching skills
+                      sharing my knowledge with management and operations staff.
                     </p>
                   </div>
                   <img
