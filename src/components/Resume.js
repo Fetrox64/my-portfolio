@@ -22,7 +22,7 @@ const Resume = () => {
                 <p style={{ textAlign: "justify" }}>
                   I hope to be able to join a company that knows how to exploit
                   my creativity and strategy. I like to develop skills that
-                  allow the better functioning of work teams, in effective
+                  allow the better functioning of work teams in effective
                   communication area, empathy at work and team management.
                 </p>
               </div>
@@ -50,7 +50,7 @@ const Resume = () => {
                             </div>
                           </div>
                           <div className="text">
-                            <p>Full Stack Software Developer formation</p>
+                            <p>Full Stack Software Developer formation.</p>
                           </div>
                         </div>
                       </li>
@@ -69,7 +69,7 @@ const Resume = () => {
                             </div>
                           </div>
                           <div className="text">
-                            <p>Certificate in Soft Skills Development</p>
+                            <p>Certificate in Soft Skills Development.</p>
                           </div>
                         </div>
                       </li>
@@ -88,7 +88,7 @@ const Resume = () => {
                             </div>
                           </div>
                           <div className="text">
-                            <p>Non graduated in Bussines Management</p>
+                            <p>Non graduated in Bussines Management.</p>
                           </div>
                         </div>
                       </li>
@@ -107,7 +107,7 @@ const Resume = () => {
                             </div>
                           </div>
                           <div className="text">
-                            <p>Graduated in Humanist-Scientific formation</p>
+                            <p>Graduated in Humanist-Scientific formation.</p>
                           </div>
                         </div>
                       </li>
@@ -139,7 +139,7 @@ const Resume = () => {
                             <p style={{ textAlign: "justify" }}>
                               In this startup I participate in consultancy
                               projects drawing pages with React and setting up
-                              web services with Node
+                              web services with Node.
                             </p>
                           </div>
                         </div>
@@ -162,7 +162,7 @@ const Resume = () => {
                             <p style={{ textAlign: "justify" }}>
                               We connect people and organizations, promoting
                               entrepreneurship, teaching programming and
-                              building proofs of concept
+                              building proofs of concept.
                             </p>
                           </div>
                         </div>

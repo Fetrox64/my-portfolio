@@ -38,7 +38,7 @@ const Service = ({ dark }) => {
                     <span>What I Do</span>
                     <h3>My Services</h3>
                     <p style={{ textAlign: "justify" }}>
-                      In my experience as developer I had grown in a Full Stack
+                      In my experience as developer I grown in a Full Stack
                       enviroment, participating in MVPs develop from product
                       design to apps developing.
                     </p>
@@ -70,7 +70,7 @@ const Service = ({ dark }) => {
                   <div className="text">
                     <p>
                       In my career as a Backend Developer I had mainly dedicated
-                      to the develop of REST API and Bots
+                      to the develop of REST API and Bots.
                     </p>
                   </div>
                   <img

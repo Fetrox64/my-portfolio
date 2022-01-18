@@ -11,8 +11,8 @@ const Blog = () => {
             <span>My Latest Updates</span>
             <h3>From Empatía Blog</h3>
             <p>
-              {`I'm`} always aware for the last technologies and services that
-              could increasse the value on products and brands
+              {`I'm`} always aware of the last technologies and services that
+              could increase the value on products and brands.
             </p>
           </div>
           <div className="news_list">
