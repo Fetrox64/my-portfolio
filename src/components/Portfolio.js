@@ -81,7 +81,7 @@ const Portfolio = () => {
               </li>
 
               {/* BARMAN BOT */}
-              <li className="filter-item soundcloud">
+              {/* <li className="filter-item soundcloud">
                 <div className="list_inner">
                   <div className="image">
                     <img src="img/thumbs/1-1.jpg" alt="aali image" />
@@ -103,7 +103,7 @@ const Portfolio = () => {
                     // onClick={() => showPopup("soundcloud", "471954807")}
                   />
                 </div>
-              </li>
+              </li> */}
 
               {/* FIORDO AUSTRAL */}
               <li className="filter-item detail">
@@ -244,7 +244,7 @@ const Portfolio = () => {
               </li>
 
               {/* EMPATIA INDUSTRIES */}
-              <li className="filter-item image">
+              {/* <li className="filter-item image">
                 <div className="list_inner">
                   <div className="image">
                     <img src="img/thumbs/1-1.jpg" alt="aali image" />
@@ -265,7 +265,7 @@ const Portfolio = () => {
                     target="_blank"
                   />
                 </div>
-              </li>
+              </li> */}
 
               {/* SEATECH */}
               <li className="filter-item youtube">
@@ -292,7 +292,7 @@ const Portfolio = () => {
               </li>
 
               {/* EMPATIA BLOG */}
-              <li className="filter-item vimeo">
+              {/* <li className="filter-item vimeo">
                 <div className="list_inner">
                   <div className="image">
                     <img src="img/thumbs/1-1.jpg" alt="aali image" />
@@ -313,7 +313,7 @@ const Portfolio = () => {
                     target="_blank"
                   />
                 </div>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

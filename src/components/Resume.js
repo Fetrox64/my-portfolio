@@ -155,7 +155,7 @@ const Resume = () => {
                               <span>Empatía Industries, Chile</span>
                             </div>
                             <div className="right">
-                              <span>5 years</span>
+                              <span>3 years</span>
                             </div>
                           </div>
                           <div className="text">

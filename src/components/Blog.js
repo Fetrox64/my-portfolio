@@ -9,7 +9,7 @@ const Blog = () => {
             data-color="dark"
           >
             <span>My Latest Updates</span>
-            <h3>From Empatía Blog</h3>
+            <h3>From Internet</h3>
             <p>
               {`I'm`} always aware of the last technologies and services that
               could increase the value on products and brands.
@@ -24,18 +24,18 @@ const Blog = () => {
                     <img src="img/thumbs/42-29.jpg" alt="aali image" />
                     <div
                       className="main"
-                      data-img-url="https://blog.empatiaindustries.com/content/images/size/w2000/2021/09/calendly-2.png"
+                      data-img-url="https://trainee.empatiaindustries.com/content/images/size/w960/2023/05/Tipos_de_Variable.png"
                     />
                     <a
                       className="aali_tm_full_link"
                       target="_blank"
-                      href="https://blog.empatiaindustries.com/administra-y-agenda/"
+                      href="https://trainee.empatiaindustries.com/tipos-de-variables/"
                     />
                   </div>
                   <div className="details">
                     <span className="category">
                       <a
-                        href="https://blog.empatiaindustries.com/tag/resources/"
+                        href="https://trainee.empatiaindustries.com/tag/fundamentos/"
                         target="_blank"
                       >
                         Resources
@@ -43,18 +43,18 @@ const Blog = () => {
                     </span>
                     <h3 className="title">
                       <a
-                        href="https://blog.empatiaindustries.com/administra-y-agenda/"
+                        href="https://trainee.empatiaindustries.com/tipos-de-variables/"
                         target="_blank"
                       >
-                        Schedule your meetings smartly with Calendly
+                        Variables in Dart
                       </a>
                     </h3>
-                    <span className="date">September 15, 2021</span>
+                    <span className="date">June 2, 2023</span>
                   </div>
                   <div className="button">
                     <div className="aali_tm_learn_more">
                       <a
-                        href="https://blog.empatiaindustries.com/administra-y-agenda/"
+                        href="https://trainee.empatiaindustries.com/tipos-de-variables/"
                         target="_blank"
                       >
                         Full Story
@@ -70,37 +70,37 @@ const Blog = () => {
                     <img src="img/thumbs/42-29.jpg" alt="aali image" />
                     <div
                       className="main"
-                      data-img-url="https://blog.empatiaindustries.com/content/images/size/w2000/2021/08/New-Project-1.png"
+                      data-img-url="https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEyfHxlbXByZW5kaW1pZW50b3xlbnwwfHx8fDE2ODk5NjQ5OTd8MA&ixlib=rb-4.0.3&q=80&w=960"
                     />
                     <a
                       className="aali_tm_full_link"
                       target="_blank"
-                      href="https://blog.empatiaindustries.com/gatsby-shopify-webinar/"
+                      href="https://trainee.empatiaindustries.com/taller-emprendimiento-1/"
                     />
                   </div>
                   <div className="details">
                     <span className="category">
                       <a
-                        href="https://blog.empatiaindustries.com/tag/events/"
+                        href="https://trainee.empatiaindustries.com/tag/consultoria-y-teletrabajo/"
                         target="_blank"
                       >
-                        Events
+                        Business
                       </a>
                     </span>
                     <h3 className="title">
                       <a
-                        href="https://blog.empatiaindustries.com/gatsby-shopify-webinar/"
+                        href="https://trainee.empatiaindustries.com/taller-emprendimiento-1/"
                         target="_blank"
                       >
-                        Headless Shopify: From first commit to first sale
+                        Business Workshop 1
                       </a>
                     </h3>
-                    <span className="date">August 24, 2021</span>
+                    <span className="date">July 21, 2023</span>
                   </div>
                   <div className="button">
                     <div className="aali_tm_learn_more">
                       <a
-                        href="https://blog.empatiaindustries.com/gatsby-shopify-webinar/"
+                        href="https://trainee.empatiaindustries.com/taller-emprendimiento-1/"
                         target="_blank"
                       >
                         Full Story
