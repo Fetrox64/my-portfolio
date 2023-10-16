@@ -151,7 +151,7 @@ const Resume = () => {
                           <span className="icon">{exp}</span>
                           <div className="info">
                             <div className="left">
-                              <h3>Founder and CEO</h3>
+                              <h3>Sofware Developer and Founder</h3>
                               <span>Empatía Industries, Chile</span>
                             </div>
                             <div className="right">

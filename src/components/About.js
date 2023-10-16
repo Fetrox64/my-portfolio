@@ -55,7 +55,7 @@ const About = () => {
               data-wow-duration="1.5s"
               data-wow-delay="0.2s"
             >
-              <a href="CV_Fernando Hernandez Vega_08_2023.pdf" download>
+              <a href="CV_Fernando_Hernández_Vega_2023.pdf" download>
                 <span>Download CV {download}</span>
               </a>
             </div>

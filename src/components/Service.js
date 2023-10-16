@@ -70,7 +70,8 @@ const Service = ({ dark }) => {
                   <div className="text">
                     <p>
                       In my career as a Backend Developer I had mainly dedicated
-                      to the develop of REST API and Bots.
+                      to the develop of REST API and Bots. Cloud native with
+                      AWS.
                     </p>
                   </div>
                   <img
@@ -94,7 +95,7 @@ const Service = ({ dark }) => {
                   </span>
                   <div className="title">
                     <h3>Frontend</h3>
-                    <span className="price">With React, Next and Angular</span>
+                    <span className="price">With React, Next and Flutter</span>
                   </div>
                   <div className="text">
                     <p>

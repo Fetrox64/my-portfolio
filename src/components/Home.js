@@ -125,7 +125,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="socials">
+        {/* <div className="socials">
           <ul>
             <li>
               <a href="https://github.com/Fetrox64" target="_blank">
@@ -146,7 +146,7 @@ const Home = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
         {/* <div className="hero_mail">
           <a className="line_anim" href="#contact">
             fernanrpg@gmail.com
